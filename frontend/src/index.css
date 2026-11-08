@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  @apply bg-stone-50 text-stone-900 antialiased;
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-up {
+  animation: fadeUp 0.25s ease-out;
+}
+
+.report h1 { @apply text-2xl font-bold mt-6 mb-3; }
+.report h2 { @apply text-xl font-semibold mt-5 mb-2; }
+.report h3 { @apply text-base font-semibold mt-4 mb-1; }
+.report p { @apply my-2 leading-relaxed; }
+.report ul, .report ol { @apply my-2 pl-6 list-disc space-y-1; }
+.report a { @apply text-emerald-700 underline; }
+.report code { @apply bg-stone-100 rounded px-1 text-sm; }
+.report pre { @apply bg-stone-900 text-stone-100 rounded-lg p-3 my-2 overflow-x-auto text-xs; }
+.report table { @apply my-3 border-collapse text-sm; }
+.report th, .report td { @apply border border-stone-300 px-2 py-1; }
