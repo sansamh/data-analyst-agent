@@ -1,0 +1,6 @@
+OPENAI_API_KEY: "sk-wxldfmyeiewwpihdxjjxonsozlyzhkeslfmllzjtdjhtofbt"
+OPENAI_BASE_URL: "https://api.siliconflow.cn/v1"
+LLM_MODEL: "deepseek-ai/DeepSeek-V3"
+CORS_ALLOWED_ORIGINS: "https://datasage-eay.pages.dev"
+WORKSPACE_ROOT: "/tmp/workspace"
+CODE_TIMEOUT_SECONDS: "120"

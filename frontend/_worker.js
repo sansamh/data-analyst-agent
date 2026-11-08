@@ -1,4 +1,4 @@
-const BACKEND = 'https://datasage-h5et.onrender.com'
+const BACKEND = 'https://datasage-65634205430.us-central1.run.app'
 
 export default {
   async fetch(request, env) {
