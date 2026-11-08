@@ -1,0 +1,18 @@
+INFO:     Started server process [22572]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8082 (Press CTRL+C to quit)
+INFO:     127.0.0.1:54680 - "POST /api/datasets HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54681 - "POST /api/analyses HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53901 - "GET /api/analyses HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53903 - "GET /api/analyses HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50406 - "GET /api/analyses HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50408 - "GET /api/analyses HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58597 - "POST /api/datasets HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64995 - "POST /api/analyses HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50522 - "GET /api/analyses HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52924 - "GET /api/analyses HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60520 - "GET /api/analyses/d72f8b0a16e0/files/region_sales.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60521 - "GET /api/analyses/d72f8b0a16e0/files/product_return_rate.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62967 - "GET /api/analyses HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62969 - "GET /api/analyses HTTP/1.1" 200 OK
